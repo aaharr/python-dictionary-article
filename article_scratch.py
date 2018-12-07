@@ -1,8 +1,31 @@
-
-
+import lavalamp
 
 """
-Examples
+Dictionary Creation
+"""
+my_dict = {'key1': 1, 'key2': 2}
+
+my_dict = dict(key1=1, key2=2)
+
+my_dict = {}
+
+my_dict = dict()
+
+my_dict['key'] = 123
+
+# Define a dict with some string values and keys
+my_dict = {
+    'my_nested_dict':
+        {
+            'a_key': 'a_value',
+            'another_key': 'another_value',
+        }
+}
+
+my_variable = my_dict['my_nested_dict']
+
+"""
+Practical Use Cases
 """
 bill = {'email': 'bill@gmail.com',
         'address': '123 Acme Dr.',
